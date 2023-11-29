@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import RecipeCard from "../components/RecipeCard";
+import RecipeCard from "./RecipeCard";
 
 const App = () => {
   const [recipes, setRecipes] = useState([]);
